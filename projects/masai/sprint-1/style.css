@@ -1,0 +1,1044 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+ * { 
+  background-image: url('https://uc783ede92c3e07e9ec725003e96.previews.dropboxusercontent.com/p/thumb/AAlR0qpAy0ZL6fErdZfSzzakQLIxL4L5OHc6tT4JkUUFRjwJIC6cpfYP3eFEJsbd4cXOltuT9QhlkpkO7ToIglFDhTg1xEgSSOO20XkTdT6kOTwXtzzVewfGciqD155zLiiGoXY0HDt_vtFESKI7wmRA-owNoGror1zIGjJ5S7Qj4zeT7KDSCeqX4DGJYeywsOGh6FKd8nk9Xptm_0VOoR8QP9sbs4P7eFBmZs0j4s-VkpbdxnLywFopJ_cAdOecBuWSYFohCMyCkoyjjfpxgq2zrDKfhOHNUcNT28vJB2NAqk_bhRrzK29BOasf88fiFX405-94tzIxKeNB6S_TG4C8ICTkdNBf-5SS_2ywaAEIaoJjIidU0RcucrLULkd_pR69JTT-ZgFMS_nBKDhvBpDiA1yGAlxIZEWlASOLAKl-VQT2TPf_cdmNh4PzSoImKQG2NgWa8kJSUAjOmwkE8Pdyv7o7Hz3KFYeHCkmFOfksHobcpN-fL5Mi3EwdsNM8Pew/p.jpeg?fv_content=true&size_mode=5');
+  /* background-size: cover; */
+ }
+ #chai-logo-1 {
+  display: none;
+ }
+ #login-header-1, #interesting-facts-header-1, #buy-header-1, #history-and-header-1, .grid-container-1-home-page, #products-desc-1, #health-benefits-1, #interesting-facts-1{
+  display: none;
+ }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ * {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ .flex-container-header {
+  display: flex;
+  /* border: 1px dotted navy; */
+  flex-direction: row;
+  
+ }
+
+ .flex-container-header div {
+  margin: 5px;
+  padding: 5px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ #login-header-1, #interesting-facts-header-1, #buy-header-1, #history-and-header-1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  /* border: 1px dotted red; */
+ 
+ }
+ #chai-logo-1 {
+  margin-right: auto;
+ }
+
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ margin-top: 60px;
+ vertical-align: -40px;
+ }
+ 
+ 
+ #chai-logo-1 img {
+  height: 90px;
+  width: 90px;
+ }
+ 
+ 
+ .grid-container-1-home-page {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 600px);
+ }
+ 
+ .grid-container-1-home-page div:nth-of-type(1) {
+  background-image: url("https://images.unsplash.com/photo-1546342278-5cceccde4a65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-color: transparent;
+ }
+ 
+ .grid-container-1-home-page p {
+  font-size: 50px;
+ color: rgb(255, 255, 255);
+ position: relative;
+ margin-left: 50%;
+ margin-top: 20%;
+ }
+ 
+ .grid-container-1-home-page div img {
+  height: 600px;
+  width: 1250px;
+ }
+ 
+ .grid-container-2-home-page {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 15px;
+ }
+
+ 
+ .grid-container-2-home-page div:nth-of-type(1) {
+  grid-area: 1/1/5/span 2;
+  background-image: url("https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(3){
+  grid-area: 1/3/5/span 2;
+  background-image: url("https://www.eatright.org/-/media/eatrightimages/health/wellness/preventingillness/thehealthbenefitsoftea.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(5){
+  grid-area: 1/5/5/span 2;
+  background-image: url("https://st.depositphotos.com/1064045/2114/i/950/depositphotos_21140917-stock-photo-england.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(25){
+  grid-area: 5/1/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(27){
+  grid-area: 5/3/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(29){
+  grid-area: 5/5/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ #products-desc-1 {
+  font-size: 40px;
+  color: rgb(93, 58, 35);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #health-benefits-1 {
+  font-size: 40px;
+  color: rgb(80, 129, 51);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #interesting-facts-1 {
+  font-size: 40px;
+  color: rgb(230, 100, 14);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ .flex-container-footer {
+  display: flex;
+ }
+ 
+ #history-and-origin-header-1 {
+  font-size: 50px;
+  color: orangered;
+  text-align: center;
+  text-decoration: underline;
+ }
+ 
+ .grid-container-history-and-origin-page-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 25px;
+  margin: 30px; 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div {
+  /* border: 1px dotted navy; */
+  padding: 25px;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlRBPmiJuUo1oYY-1VHCRXbu0tUYiTNE8R3sT30ptXDpmQeHf&s");
+  
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(2) {
+  grid-area: 1/2/1/ -1;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(5) {
+  grid-area: 2/1/2/ span 3;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(10) {
+  grid-area: 3/2/3/ span 3;
+  margin-top: 35px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(13) {
+  grid-area: 4/1/4/ span 3;
+  margin-top: 45px;
+ 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(18) {
+  grid-area: 5/2/5/ span 3;
+  margin-top: 55px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 p {
+  font-size: 31px;
+ }
+ 
+ #shennong-img p {
+  font-size: 31px;
+ 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(3) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVJje41iVZdlWpht-uu5ICJjzETffQSYI9TR5Lfh_RL0i8VV7&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(4) {
+  background-image: url("https://media.hitfull.com/article/images/Plucking_tea-assam-tea.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(6) {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gorskii_03992u.jpg/800px-Gorskii_03992u.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(7) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCc0SpfkOfU4zEiGfjNMZAjRI_C1KM4aMsBnfLDA4RsfU5-pp8PA&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+  
+ }
+ 
+ .grid-container-intersting-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 15px;
+  margin: 30px;
+ }
+ 
+ .grid-container-intersting-facts div {
+  /* border: 1px dashed red; */
+  padding: 25px;
+ }
+ 
+ #interesting-facts-1 p {
+  font-size: 50px;
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(1) {
+  grid-area: 1/1/1/span 3;
+  border-radius:50%;
+  border: 5px solid red;
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(4) {
+  grid-area: 2/2/2/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(0, 110, 255);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(5) {
+  grid-area: 3/1/3/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(255, 196, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ .grid-container-intersting-facts div:nth-child(8) {
+  grid-area: 4/2/4/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(229, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(9) {
+  grid-area: 5/1/5/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(81, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(2) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(3) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(6) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(7) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(10) {
+  border-radius: 50%;
+ }
+ 
+ .interesting-facts-desc-font {
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+ }
+ 
+ #contact-us-desc {
+  background-color: rgb(209, 206, 209);
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: left;
+  border-radius: 50%;
+  margin-left: 35%;
+ }
+ 
+ #feel-free-desc p{
+  font-size: 50px; 
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ #contact-us-desc p {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+ }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ * {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ .flex-container-header {
+  display: flex;
+  flex-direction: row;
+  
+ }
+
+ .flex-container-header div {
+  margin: 5px;
+  padding: 5px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ #login-header-1, #interesting-facts-header-1, #buy-header-1, #history-and-header-1, #empty-box {
+  font-size: 20px;
+  margin-bottom: 0px;
+  /* border: 1px dotted red; */
+ 
+ }
+ #chai-logo-1 {
+  margin-right: auto;
+ }
+
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ margin-top: 60px;
+ vertical-align: -40px;
+ }
+ 
+ 
+ #chai-logo-1 img {
+  height: 90px;
+  width: 90px;
+ }
+ 
+ 
+ .grid-container-1-home-page {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 600px);
+ }
+ 
+ .grid-container-1-home-page div:nth-of-type(1) {
+  background-image: url("https://images.unsplash.com/photo-1546342278-5cceccde4a65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-color: transparent;
+ }
+ 
+ .grid-container-1-home-page p {
+  font-size: 50px;
+ color: rgb(255, 255, 255);
+ position: relative;
+ margin-left: 50%;
+ margin-top: 20%;
+ }
+ 
+ .grid-container-1-home-page div img {
+  height: 600px;
+  width: 1250px;
+ }
+ 
+ .grid-container-2-home-page {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 15px;
+ }
+
+ 
+ .grid-container-2-home-page div:nth-of-type(1) {
+  grid-area: 1/1/5/span 2;
+  background-image: url("https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(3){
+  grid-area: 1/3/5/span 2;
+  background-image: url("https://www.eatright.org/-/media/eatrightimages/health/wellness/preventingillness/thehealthbenefitsoftea.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(5){
+  grid-area: 1/5/5/span 2;
+  background-image: url("https://st.depositphotos.com/1064045/2114/i/950/depositphotos_21140917-stock-photo-england.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(25){
+  grid-area: 5/1/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(27){
+  grid-area: 5/3/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(29){
+  grid-area: 5/5/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ #products-desc-1 {
+  font-size: 40px;
+  color: rgb(93, 58, 35);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #health-benefits-1 {
+  font-size: 40px;
+  color: rgb(80, 129, 51);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #interesting-facts-1 {
+  font-size: 40px;
+  color: rgb(230, 100, 14);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ .flex-container-footer {
+  display: flex;
+ }
+ 
+ /* history-and-origin-header-1 */
+ 
+ #history-and-origin-header-1 {
+  font-size: 50px;
+  color: orangered;
+  text-align: center;
+ }
+ 
+ .grid-container-history-and-origin-page-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 25px;
+  margin: 30px; 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div {
+  /* border: 1px dotted navy; */
+  padding: 25px;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlRBPmiJuUo1oYY-1VHCRXbu0tUYiTNE8R3sT30ptXDpmQeHf&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(2) {
+  grid-area: 1/2/1/ -1;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(5) {
+  grid-area: 2/1/2/ span 3;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(10) {
+  grid-area: 3/2/3/ span 3;
+  margin-top: 35px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(13) {
+  grid-area: 4/1/4/ span 3;
+  margin-top: 45px;
+ 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(18) {
+  grid-area: 5/2/5/ span 3;
+  margin-top: 55px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 p {
+  font-size: 31px;
+ }
+ 
+ #shennong-img p {
+  font-size: 31px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(3) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVJje41iVZdlWpht-uu5ICJjzETffQSYI9TR5Lfh_RL0i8VV7&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(4) {
+  background-image: url("https://media.hitfull.com/article/images/Plucking_tea-assam-tea.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(6) {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gorskii_03992u.jpg/800px-Gorskii_03992u.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(7) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCc0SpfkOfU4zEiGfjNMZAjRI_C1KM4aMsBnfLDA4RsfU5-pp8PA&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+  
+ }
+ 
+ .grid-container-intersting-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 15px;
+  margin: 30px;
+ }
+ 
+ .grid-container-intersting-facts div {
+  /* border: 1px dashed red; */
+  padding: 25px;
+ }
+ 
+ #interesting-facts-1 p {
+  font-size: 50px;
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(1) {
+  grid-area: 1/1/1/span 3;
+  border-radius:50%;
+  border: 5px solid red;
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(4) {
+  grid-area: 2/2/2/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(0, 110, 255);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(5) {
+  grid-area: 3/1/3/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(255, 196, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ .grid-container-intersting-facts div:nth-child(8) {
+  grid-area: 4/2/4/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(229, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(9) {
+  grid-area: 5/1/5/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(81, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(2) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(3) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(6) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(7) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(10) {
+  border-radius: 50%;
+ }
+ 
+ .interesting-facts-desc-font {
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+ }
+ 
+ #contact-us-desc {
+  background-color: rgb(209, 206, 209);
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: left;
+  border-radius: 50%;
+  margin-left: 35%;
+ }
+ 
+ #feel-free-desc p{
+  font-size: 50px; 
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ #contact-us-desc p {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+ }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ * {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ .flex-container-header {
+  display: flex;
+  flex-direction: row;
+  
+ }
+
+ .flex-container-header div {
+  margin: 5px;
+  padding: 5px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ #login-header-1, #interesting-facts-header-1, #buy-header-1, #history-and-header-1, #empty-box {
+  font-size: 20px;
+  margin-bottom: 0px;
+  /* border: 1px dotted red; */
+ 
+ }
+ #chai-logo-1 {
+  margin-right: auto;
+ }
+
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ margin-top: 60px;
+ vertical-align: -40px;
+ }
+ 
+ 
+ #chai-logo-1 img {
+  height: 90px;
+  width: 90px;
+ }
+ 
+ 
+ .grid-container-1-home-page {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 600px);
+ }
+ 
+ .grid-container-1-home-page div:nth-of-type(1) {
+  background-image: url("https://images.unsplash.com/photo-1546342278-5cceccde4a65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-color: transparent;
+ }
+ 
+ .grid-container-1-home-page p {
+  font-size: 50px;
+ color: rgb(255, 255, 255);
+ position: relative;
+ margin-left: 50%;
+ margin-top: 20%;
+ }
+ 
+ .grid-container-1-home-page div img {
+  height: 600px;
+  width: 1250px;
+ }
+ 
+ .grid-container-2-home-page {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 15px;
+ }
+ 
+ 
+ .grid-container-2-home-page div:nth-of-type(1) {
+  grid-area: 1/1/5/span 2;
+  background-image: url("https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  /* background-size: cover; */
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(3){
+  grid-area: 1/3/5/span 2;
+  background-image: url("https://www.eatright.org/-/media/eatrightimages/health/wellness/preventingillness/thehealthbenefitsoftea.jpg");
+  /* background-size: cover; */
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(5){
+  grid-area: 1/5/5/span 2;
+  background-image: url("https://st.depositphotos.com/1064045/2114/i/950/depositphotos_21140917-stock-photo-england.jpg");
+  /* background-size: cover; */
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(25){
+  grid-area: 5/1/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(27){
+  grid-area: 5/3/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ .grid-container-2-home-page div:nth-of-type(29){
+  grid-area: 5/5/5/ span 2;
+  text-align: center;
+  margin-top: -20px;
+ }
+ 
+ #products-desc-1 {
+  font-size: 40px;
+  color: rgb(93, 58, 35);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #health-benefits-1 {
+  font-size: 40px;
+  color: rgb(80, 129, 51);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ #interesting-facts-1 {
+  font-size: 40px;
+  color: rgb(230, 100, 14);
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+ .flex-container-footer {
+  display: flex;
+ }
+ 
+ 
+ #history-and-origin-header-1 {
+  font-size: 50px;
+  color: orangered;
+  text-align: center;
+ }
+ 
+ .grid-container-history-and-origin-page-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 25px;
+  margin: 30px; 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div {
+  /* border: 1px dotted navy; */
+  padding: 25px;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlRBPmiJuUo1oYY-1VHCRXbu0tUYiTNE8R3sT30ptXDpmQeHf&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(2) {
+  grid-area: 1/2/1/ -1;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(5) {
+  grid-area: 2/1/2/ span 3;
+  margin-top: 25px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(10) {
+  grid-area: 3/2/3/ span 3;
+  margin-top: 35px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(13) {
+  grid-area: 4/1/4/ span 3;
+  margin-top: 45px;
+ 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-of-type(18) {
+  grid-area: 5/2/5/ span 3;
+  margin-top: 55px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 p {
+  font-size: 31px;
+ }
+ 
+ #shennong-img p {
+  font-size: 31px;
+ 
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(3) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzVJje41iVZdlWpht-uu5ICJjzETffQSYI9TR5Lfh_RL0i8VV7&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(4) {
+  background-image: url("https://media.hitfull.com/article/images/Plucking_tea-assam-tea.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(6) {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gorskii_03992u.jpg/800px-Gorskii_03992u.jpg");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+ }
+ 
+ .grid-container-history-and-origin-page-1 div:nth-child(7) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCc0SpfkOfU4zEiGfjNMZAjRI_C1KM4aMsBnfLDA4RsfU5-pp8PA&s");
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+  
+ }
+ 
+ .grid-container-intersting-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 15px;
+  margin: 30px;
+ }
+ 
+ .grid-container-intersting-facts div {
+  /* border: 1px dashed red; */
+  padding: 25px;
+ }
+ 
+ #interesting-facts-1 p {
+  font-size: 50px;
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(1) {
+  grid-area: 1/1/1/span 3;
+  border-radius:50%;
+  border: 5px solid red;
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(4) {
+  grid-area: 2/2/2/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(0, 110, 255);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(5) {
+  grid-area: 3/1/3/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(255, 196, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ .grid-container-intersting-facts div:nth-child(8) {
+  grid-area: 4/2/4/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(229, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(9) {
+  grid-area: 5/1/5/span 3;
+  border-radius:50%;
+  border: 5px solid rgb(81, 255, 0);
+  background-color: rgb(218, 209, 209);
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(2) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(3) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(6) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(7) {
+  border-radius: 50%;
+ }
+ 
+ .grid-container-intersting-facts div:nth-child(10) {
+  border-radius: 50%;
+ }
+ 
+ .interesting-facts-desc-font {
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+ }
+ 
+ #contact-us-desc {
+  background-color: rgb(209, 206, 209);
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: left;
+  border-radius: 50%;
+  align-items: center;
+ }
+ 
+ #feel-free-desc p{
+  font-size: 50px; 
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+ }
+ 
+ #contact-us-desc p {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+ }
+}
